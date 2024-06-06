@@ -452,14 +452,18 @@ const App = () => {
 
 <div className='bg-black '>
   
-
+<div className="heading_container heading_center text-white text-3xl">
+        <h2 className='mt-20'>
+        PRODUCTS
+        </h2>
+      </div>
 <body className=" bg-black lg:flex-row  md:flex-row flex-col 
-flex justify-center items-center min-h-screen p-4 lg:mx-20">
+flex justify-center items-center  p-4 lg:mx-20">
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
 
 {/* part */}
-    <div className="bg-white p-4 lg:h-96  lg:w-[374px]  shadow-md">
+    <div className="bg-white p-4 lg:h-96  lg:w-[374px]  shadow-md mt-2">
     <GiRingingAlarm  className='text-7xl lg:mx-32 mx-24 md:mx-32'/>
       <h2 className="text-xl font-bold mb-2 mt-3 lg:mx-6 md:mx-14">SECURITY ALARM SYSTEM</h2>
       <p className="text-gray-700 lg:mx-2 mx-0">Our product range includes a wide range of shop shutter security system, non gsm shutter siren, gsm shutter system, non gsm door siren, gsm multi door security system and eco 5 gsm security system.</p>
@@ -468,7 +472,7 @@ flex justify-center items-center min-h-screen p-4 lg:mx-20">
 
 
 {/* part2 */}
-    <div className="bg-white p-4 lg:h-96  lg:w-[374px] shadow-md">
+    <div className="bg-white p-4 lg:h-96  lg:w-[374px] shadow-md mt-2">
     <GiRingingAlarm   className='text-7xl lg:mx-32 mx-24 md:mx-32'/>
       <h2 className="text-xl font-bold mb-2 mt-3 lg:mx-6 md:mx-14">Shutter Security System</h2>
       <p className="text-gray-700 lg:mx-2 mx-0">Leading Wholesaler of shutter gsm with motion and fire sensor, hybrid 10 security sensor, k3gps security system, eco 6 gsm security sensor, hybrid 5 wired security sensor and secure 5 sensor from Bardhaman.</p>
@@ -477,7 +481,7 @@ flex justify-center items-center min-h-screen p-4 lg:mx-20">
 
 
 {/* part3 */}
-    <div className="bg-white p-4 lg:h-96  lg:w-[374px] shadow-md">
+    <div className="bg-white p-4 lg:h-96  lg:w-[374px] shadow-md mt-2">
     <GiRingingAlarm  className='text-7xl lg:mx-32 mx-24 md:mx-32'/>
       <h2 className="text-xl font-bold mb-2 mt-3 lg:mx-16 mx-10 md:mx-20">Security Systems</h2>
       <p className="text-gray-700 lg:mx-2 mx-3 ">Leading Wholesaler of panic button alarm, wireless gsm alarm and wireless alarm system from Bardhaman.</p>
@@ -486,7 +490,7 @@ flex justify-center items-center min-h-screen p-4 lg:mx-20">
 
 
 {/* part4 */}
-    <div className="bg-white p-4 lg:h-96  lg:w-[374px] shadow-md">
+    <div className="bg-white p-4 lg:h-96  lg:w-[374px] shadow-md mb-10">
     <GiRingingAlarm  className='text-7xl lg:mx-32 mx-24 md:mx-32'/>
       <h2 className="text-xl font-bold mb-2 mt-3 lg:mx-7 mx-0 md:mx-12">Cctv Surveillance System</h2>
       <p className="text-gray-700 lg:mx-2 mx-3 ">Pioneers in the industry, we offer cctv surveillance system from India.</p>
@@ -532,9 +536,7 @@ flex justify-center items-center min-h-screen p-4 lg:mx-20">
         <div className="carousel-inner">
           <div className="carousel-item active">
             <div className="box">
-              {/* <div class="img-box">
-                <img src="images/client.png" alt="">
-              </div> */}
+            
                <img src={client} alt='' className='h-28' />
               <div className="detail-box">
                 <h4>
@@ -674,15 +676,16 @@ flex justify-center items-center min-h-screen p-4 lg:mx-20">
 
 
 
-<div className=' bg-black  p-14'>
-<div className=' text-white lg:flex justify-between items-center lg:mx-6 mx-2 ' >
+<div className=' bg-black  lg:p-14 md:p-10 sm:p-4 p-14 '>
+<div className=' text-white lg:flex md:flex  md:mx-10  sm:flex  sm:mx-10  justify-between items-center  lg:text-base
+ lg:mx-6 mx-2 ' >
 <p>
       &copy; <span id="currentYear"></span> All Rights Reserved. Design by
      Free Html Templates
     </p>
 
 
-    <div className='text-white flex gap-4  text-xl'>
+    <div className='text-white flex gap-4  text-xl mx-10 mt-3 lg:mt-0 md:mt-0  sm:mt-0 lg:mx-0 md:mx-0 '>
     <FaFacebookF />
     <FaTwitter  />
     <TfiYoutube />
