@@ -11,7 +11,7 @@ import img6 from '../../../public/images/img6.jpg';
 import img7 from '../../../public/images/img7.jpg';
 // import { GiRingingAlarm } from "react-icons/gi";
 // import Onepagescrolling from '../Onepagescrolling;'
-import Onepagescrolling from '../../Components/Onepagescrolling';
+import Onepagescrolling from '../../Components/Homefolder/Onepagescrolling';
 import client from "../../../public/images/client.png";
 import { IoIosArrowForward } from "react-icons/io";
 import { IoIosArrowBack } from "react-icons/io";
