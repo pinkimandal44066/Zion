@@ -12,7 +12,7 @@ const Footer = () => {
  lg:mx-6 mx-2 ' >
 <p>
       &copy; <span id="currentYear"></span> All Rights Reserved. Design by
-     Free Html Templates
+      Developer by Technofav
     </p>
 
 
