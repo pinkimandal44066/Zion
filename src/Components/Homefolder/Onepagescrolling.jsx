@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-// import React, { useState } from 'react';
+
 import { Link } from "react-router-dom";
 import { FiMenu } from "react-icons/fi";
 import { IoCloseOutline } from "react-icons/io5";
@@ -11,12 +11,10 @@ import {
   scrollSpy,
 } from "react-scroll";
 
-// import { Link as ScrollLink, Events, animateScroll as scroll, scrollSpy } from "react-scroll";
-// import { FiMenu } from 'react-icons/fi';
-// import { IoCloseOutline } from 'react-icons/io5';
+
 import { FaFacebook, FaInstagramSquare } from "react-icons/fa";
 import { IoLogoYoutube } from "react-icons/io";
-// import { NavLink, Link } from "react-router-dom";
+
 import img1 from "../../../public/images/img1.jpg";
 import img2 from "../../../public/images/img2.jpg";
 
@@ -340,9 +338,9 @@ function App() {
                                 {" "}
                                 Read more{" "}
                               </a>
-                              <a href="" className="btn-2">
+                              {/* <a href="" className="btn-2">
                                 Get A Quote
-                              </a>
+                              </a> */}
                             </div>
                           </div>
                         </div>
@@ -378,9 +376,9 @@ function App() {
                                 {" "}
                                 Read more{" "}
                               </a>
-                              <a href="" className="btn-2">
+                              {/* <a href="" className="btn-2">
                                 Get A Quote
-                              </a>
+                              </a> */}
                             </div>
                           </div>
                         </div>
@@ -416,9 +414,9 @@ function App() {
                                 {" "}
                                 Read more{" "}
                               </a>
-                              <a href="" className="btn-2">
+                              {/* <a href="" className="btn-2">
                                 Get A Quote
-                              </a>
+                              </a> */}
                             </div>
                           </div>
                         </div>
