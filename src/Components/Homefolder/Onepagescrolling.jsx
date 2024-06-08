@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 
-
 import { Link } from "react-router-dom";
 import { FiMenu } from "react-icons/fi";
 import { IoCloseOutline } from "react-icons/io5";
@@ -10,7 +9,6 @@ import {
   animateScroll as scroll,
   scrollSpy,
 } from "react-scroll";
-
 
 import { FaFacebook, FaInstagramSquare } from "react-icons/fa";
 import { IoLogoYoutube } from "react-icons/io";
@@ -199,8 +197,6 @@ function App() {
         </div>
       </div> */}
 
-
-
                 <div className="header_bottom lg:hidden md:hidden block">
                   <div className="container-fluid">
                     <nav className="navbar navbar-expand-lg custom_nav-container">
@@ -233,28 +229,26 @@ function App() {
                         }`}
                         id="navbarSupportedContent"
                       >
-
-<ul className="navbar-nav flex flex-col items-center justify-center space-y-4 mt-4 text-white ">
-                      {menuItems.map((item) => (
-                        <li
-                          className="hover:bg-black duration-200 ease-in-out "
-                          key={item.id}
-                        >
-                          <ScrollLink
-                            to={item.title}
-                            smooth={true}
-                            offset={-100}
-                            duration={500}
-                            className={`cursor-pointer ${
-                              isActive(item.title) ? "text-orange-500" : ""
-                            }`}
-                          >
-                            {item.title}
-                          </ScrollLink>
-                        </li>
-                      ))}
-                    </ul>
-
+                        <ul className="navbar-nav flex flex-col items-center justify-center space-y-4 mt-4 text-white ">
+                          {menuItems.map((item) => (
+                            <li
+                              className="hover:bg-black duration-200 ease-in-out "
+                              key={item.id}
+                            >
+                              <ScrollLink
+                                to={item.title}
+                                smooth={true}
+                                offset={-100}
+                                duration={500}
+                                className={`cursor-pointer ${
+                                  isActive(item.title) ? "text-orange-500" : ""
+                                }`}
+                              >
+                                {item.title}
+                              </ScrollLink>
+                            </li>
+                          ))}
+                        </ul>
 
                         {/* <ul className="navbar-nav flex flex-col items-center justify-center space-y-4 mt-4">
                           <li className="nav-item active">
@@ -288,18 +282,6 @@ function App() {
                     </nav>
                   </div>
                 </div>
-
-
-
-
-
-
-
-
-
-
-
-
               </div>
             </header>
 
@@ -726,59 +708,3 @@ font-semibold py-3 px-9 mt-4 rounded-lg mx-auto '>
 }
 
 export default App;
-
-
-
-// import React, { useState } from 'react';
-// import { Link } from 'react-router-dom';
-// import { FiMenu } from 'react-icons/fi';
-// import { IoCloseOutline } from 'react-icons/io5';
-
-// const MobileNavbar = () => {
-//   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-//   return (
-//     <div className="header_bottom lg:hidden md:hidden block">
-//       <div className="container-fluid">
-//         <nav className="navbar navbar-expand-lg custom_nav-container">
-//           <Link className="navbar-brand" to="/">
-//             <span>
-//               <img
-//                 src="https://5.imimg.com/data5/SELLER/Logo/2024/5/417367714/AR/DE/MX/194305307/logo-90x90.jpg"
-//                 alt="Logo"
-//               />
-//             </span>
-//           </Link>
-//           <button
-//             className="navbar-toggler"
-//             type="button"
-//             onClick={() => setIsMenuOpen(!isMenuOpen)}
-//             aria-expanded={isMenuOpen ? "true" : "false"}
-//             aria-label="Toggle navigation"
-//           >
-//             {isMenuOpen ? <IoCloseOutline className="text-xl text-red-800" /> : <FiMenu className="text-xl text-white" />}
-//           </button>
-
-//           <div className={`navbar-collapse ml-auto ${isMenuOpen ? 'block' : 'hidden'}`} id="navbarSupportedContent">
-//             <ul className="navbar-nav flex flex-col items-center justify-center space-y-4 mt-4">
-//               <li className="nav-item active">
-//                 <Link className="nav-link text-black" to="/">HOME <span className="sr-only">(current)</span></Link>
-//               </li>
-//               <li className="nav-item">
-//                 <Link className="nav-link text-black" to="/about">ABOUT US</Link>
-//               </li>
-//               <li className="nav-item">
-//                 <Link className="nav-link text-black" to="/product">PRODUCT</Link>
-//               </li>
-//               <li className="nav-item">
-//                 <Link className="nav-link text-black" to="/contact">CONTACT US</Link>
-//               </li>
-//             </ul>
-//           </div>
-//         </nav>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default MobileNavbar;

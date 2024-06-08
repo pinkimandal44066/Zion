@@ -1,14 +1,14 @@
-import React from 'react'
-import Home from './Home'
-import Footer from './Footer'
+import React from "react";
+import Footer from "./Footer";
+import Onepagescrolling from "./Onepagescrolling";
 
 const Homepage = () => {
   return (
     <div>
-      <Home />
-      <Footer />
+      <Onepagescrolling />
+      {/* <Footer /> */}
     </div>
-  )
-}
+  );
+};
 
-export default Homepage
+export default Homepage;

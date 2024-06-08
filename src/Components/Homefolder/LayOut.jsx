@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Outlet } from "react-router-dom";
 import ScrollToTop from "./ScrollToTop";
 import Footer from "../Homefolder/Footer";
-import Home from "./Home";
+import Homepage from "./Homepage";
 const LayOut = () => {
   const [loading, setLoading] = useState(false);
 
@@ -21,12 +21,10 @@ const LayOut = () => {
         </div>
       ) : (
         <>
-        
-          <Home />
+          <Homepage />
           <ScrollToTop />
           <Outlet />
           <Footer />
-         
         </>
       )}
     </div>
