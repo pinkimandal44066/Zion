@@ -24,6 +24,8 @@ import img7 from "../../../public/images/img7.jpg";
 import img8 from "../../../public/images/img8.jpeg";
 // import client from "../../../public/images/client.png";
 import pdf from "../../../public/images/pdf.pdf";
+import img9 from "../../../public/images/img9.jpg";
+import img10 from "../../../public/images/img10.jpg";
 
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
@@ -99,10 +101,48 @@ function App() {
         <div id="HOME">
           <div className="hero_area">
             <div className="hero_bg_box">
-              <div className="img-box">
+              {/* <div className="img-box">
                 <img src={img1} alt="" />
-              </div>
+                
+              </div> */}
+                          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      {/* <img class="d-block w-100" src={img1} alt="First slide"> */}
+      <img src={img9} alt="" />
+    </div>
+    <div class="carousel-item">
+      {/* <img class="d-block w-100" src={img9} alt="Second slide"> */}
+      <img src={img10} alt="" />
+    </div>
+    <div class="carousel-item">
+      {/* <img class="d-block w-100" src={img10}alt="Third slide"> */}
+      <img src={img1} alt="" />
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+          
+              
+              {/* <img src={img9} alt="" />
+                <img src={img10} alt="" /> */}
             </div>
+
+
+
+ 
 
             <header className="header_section">
               <div className="header_top">
@@ -126,11 +166,13 @@ function App() {
               </div>
               <div className="header_bottom ">
                 <div className="container-fluid   lg:block md:block hidden">
+                  
                   <nav
                     className="navbar navbar-expand-lg custom_nav-container flex justify-between
                   "
                   >
                     <div className="mt-2">
+                      
                       <img
                         src="https://5.imimg.com/data5/SELLER/Logo/2024/5/417367714/AR/DE/MX/194305307/logo-90x90.jpg"
                         alt=""
@@ -165,8 +207,10 @@ function App() {
                 <div className="header_bottom lg:hidden md:hidden block">
                   <div className="container-fluid">
                     <nav className="navbar navbar-expand-lg custom_nav-container">
+                 
                       <Link className="navbar-brand" to="/">
                         <span>
+                          
                           <img
                             src="https://5.imimg.com/data5/SELLER/Logo/2024/5/417367714/AR/DE/MX/194305307/logo-90x90.jpg"
                             alt="Logo"
@@ -223,13 +267,18 @@ function App() {
 
             <section id="about-us" className=" slider_section ">
               <div
+              
                 id="carouselExampleIndicators"
                 className="carousel slide"
                 data-ride="carousel"
               >
+                
                 <div className="carousel-inner">
+                  
                   <div className="carousel-item active">
+                  {/* <img src={img1} alt="" /> */}
                     <div className="container">
+                      
                       <div className="row">
                         <div className="col-md-7">
                           <div className="detail-box">
@@ -241,7 +290,7 @@ function App() {
                             {/* <div id="about-us" > */}
                             <div className="btn-box">
                               <a href="#about-us" className="btn-1 ">
-                                Read more 1
+                                Read more 
                               </a>
                             </div>
                             {/* </div> */}
@@ -263,7 +312,7 @@ function App() {
                             {/* <div id="about-us" > */}
                             <div className="btn-box">
                               <a href="#about-us" className="btn-1 ">
-                                Read more 2
+                                Read more 
                               </a>
                             </div>
                             {/* </div> */}
@@ -274,6 +323,7 @@ function App() {
                   </div>
                   <div className="carousel-item ">
                     <div className="container">
+                      
                       <div className="row">
                         <div className="col-md-7">
                           <div className="detail-box">
@@ -284,7 +334,7 @@ function App() {
 
                             <div className="btn-box">
                               <a href="#about-us" className="btn-1 ">
-                                Read more 3
+                                Read more 
                               </a>
                             </div>
                           </div>
@@ -314,6 +364,16 @@ function App() {
             </section>
           </div>
         </div>
+
+
+
+
+
+
+
+
+
+        
         <div id="ABOUT US" className="  ">
           {/* <h1 className="text-white text-4xl capitalize"> ABOUT US</h1> */}
 
@@ -614,3 +674,23 @@ font-semibold py-3 px-9 mt-4 rounded-lg mx-auto '>
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
