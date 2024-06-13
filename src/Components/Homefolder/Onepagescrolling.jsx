@@ -14,6 +14,9 @@ import { FaFacebook, FaInstagramSquare } from "react-icons/fa";
 import { IoLogoYoutube } from "react-icons/io";
 
 import img1 from "../../../public/images/img1.jpg";
+import img01 from '../../../public/images/img01.jpg';
+import img02 from '../../../public/images/img02.jpg';
+import img03 from '../../../public/images/img03.jpg';
 import img2 from "../../../public/images/img2.jpg";
 
 import img3 from "../../../public/images/img3.jpg";
@@ -26,7 +29,7 @@ import img8 from "../../../public/images/img8.jpeg";
 import pdf from "../../../public/images/pdf.pdf";
 import img9 from "../../../public/images/img9.jpg";
 import img10 from "../../../public/images/img10.jpg";
-
+import logo from '../../../public/images/logo.gif'
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
@@ -123,15 +126,15 @@ function App() {
   <div className="carousel-inner">
     <div className="carousel-item active">
       
-      <img src={img9} alt="" className="mt-10" />
+      <img src={img01} alt="" className="mt-10" />
     </div>
     <div className="carousel-item">
  
-      <img src={img10} alt=""className="mt-10" />
+      <img src={img02} alt=""className="mt-10" />
     </div>
     <div className="carousel-item">
     
-      <img src={img1} alt="" className="mt-10"/>
+      <img src={img03} alt="" className="mt-10"/>
     </div>
   </div>
   {/* <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -163,12 +166,12 @@ function App() {
                     </a>
                     <a href="" className="contact_link2">
                       <IoMdCall className="text-yellow-400 text-2xl" />
-                      <span className="ml-1">Call : +01 1234567890</span>
+                      <span className="ml-1">Call :  +91 96351 65686</span>
                     </a>
                     <a href="" className="contact_link3">
                       <FaEnvelope className="text-yellow-400 text-2xl" />
 
-                      <span className="ml-1">demo@gmail.com</span>
+                      <span className="ml-1"> ziontech1986@gmail.com</span>
                     </a>
                   </div>
                 </div>
@@ -182,8 +185,8 @@ function App() {
                   >
                     <div className="mt-2">
                       
-                      <img
-                        src="https://5.imimg.com/data5/SELLER/Logo/2024/5/417367714/AR/DE/MX/194305307/logo-90x90.jpg"
+                      <img src={logo}
+                        // src="https://5.imimg.com/data5/SELLER/Logo/2024/5/417367714/AR/DE/MX/194305307/logo-90x90.jpg"
                         alt=""
                       />
                     </div>
@@ -220,8 +223,8 @@ function App() {
                       <Link className="navbar-brand" to="/">
                         <span>
                           
-                          <img
-                            src="https://5.imimg.com/data5/SELLER/Logo/2024/5/417367714/AR/DE/MX/194305307/logo-90x90.jpg"
+                        <img src={logo}
+                            // src="https://5.imimg.com/data5/SELLER/Logo/2024/5/417367714/AR/DE/MX/194305307/logo-90x90.jpg"
                             alt="Logo"
                           />
                         </span>
@@ -642,6 +645,7 @@ font-semibold py-3 px-9 mt-4 rounded-lg mx-auto '>
 
           <section className="contact_section layout_padding">
             <div className="contact_bg_box"></div>
+          
             <div className="container">
               <div className="heading_container heading_center text-3xl">
                 <h2>Get In touch</h2>
@@ -679,6 +683,49 @@ font-semibold py-3 px-9 mt-4 rounded-lg mx-auto '>
               </div>
             </div>
           </section>
+
+
+
+{/* <section className="contact_section layout_padding">
+    <img src={img1} alt="Background" className="contact_bg_box" />
+    <div className="container">
+        <div className="heading_container heading_center text-3xl">
+            <h2>Get In touch</h2>
+        </div>
+        <div className="">
+            <div className="row">
+                <div className="col-md-7 mx-auto">
+                    <form action="#">
+                        <div className="contact_form-container">
+                            <div>
+                                <div>
+                                    <input type="text" placeholder="Full Name" />
+                                </div>
+                                <div>
+                                    <input type="email" placeholder="Email " />
+                                </div>
+                                <div>
+                                    <input type="text" placeholder="Phone Number" />
+                                </div>
+                                <div className="">
+                                    <input
+                                        type="text"
+                                        placeholder="Message"
+                                        className="message_input"
+                                    />
+                                </div>
+                                <div className="btn-box ">
+                                    <button type="submit">Send</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> */}
+
         </div>
       </main>
     </div>
