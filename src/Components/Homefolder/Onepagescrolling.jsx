@@ -100,12 +100,21 @@ function App() {
       <main className="flex-grow">
         <div id="HOME">
           <div className="hero_area">
+
+            
             <div className="hero_bg_box">
+
+
+              
               {/* <div className="img-box">
                 <img src={img1} alt="" />
                 
+
+                
               </div> */}
-                          <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+
+
+              <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
   <ol className="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -113,26 +122,26 @@ function App() {
   </ol>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      {/* <img class="d-block w-100" src={img1} alt="First slide"> */}
-      <img src={img9} alt="" />
+      
+      <img src={img9} alt="" className="mt-10" />
     </div>
     <div className="carousel-item">
-      {/* <img class="d-block w-100" src={img9} alt="Second slide"> */}
-      <img src={img10} alt="" />
+ 
+      <img src={img10} alt=""className="mt-10" />
     </div>
     <div className="carousel-item">
-      {/* <img class="d-block w-100" src={img10}alt="Third slide"> */}
-      <img src={img1} alt="" />
+    
+      <img src={img1} alt="" className="mt-10"/>
     </div>
   </div>
-  <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+  {/* <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
     <span className="sr-only">Previous</span>
   </a>
   <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
     <span className="carousel-control-next-icon" aria-hidden="true"></span>
     <span className="sr-only">Next</span>
-  </a>
+  </a> */}
 </div>
           
               
@@ -276,7 +285,7 @@ function App() {
                 <div className="carousel-inner">
                   
                   <div className="carousel-item active">
-                  {/* <img src={img1} alt="" /> */}
+               
                     <div className="container">
                       
                       <div className="row">
@@ -287,13 +296,13 @@ function App() {
                               <span>Our Responsibility</span>
                             </h1>
 
-                            {/* <div id="about-us" > */}
+                            
                             <div className="btn-box">
                               <a href="#about-us" className="btn-1 ">
                                 Read more 
                               </a>
                             </div>
-                            {/* </div> */}
+                           
                           </div>
                         </div>
                       </div>
@@ -309,13 +318,13 @@ function App() {
                               <span>Our Responsibility</span>
                             </h1>
 
-                            {/* <div id="about-us" > */}
+                           
                             <div className="btn-box">
                               <a href="#about-us" className="btn-1 ">
                                 Read more 
                               </a>
                             </div>
-                            {/* </div> */}
+                           
                           </div>
                         </div>
                       </div>
@@ -362,6 +371,9 @@ function App() {
                 </div>
               </div>
             </section>
+
+
+
           </div>
         </div>
 
