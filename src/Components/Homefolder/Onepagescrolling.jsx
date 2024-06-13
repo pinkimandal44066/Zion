@@ -225,7 +225,7 @@ function App() {
                           
                         <img src={logo}
                             // src="https://5.imimg.com/data5/SELLER/Logo/2024/5/417367714/AR/DE/MX/194305307/logo-90x90.jpg"
-                            alt="Logo"
+                            alt="Logo" className="w-60"
                           />
                         </span>
                       </Link>
