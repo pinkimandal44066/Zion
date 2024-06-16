@@ -29,6 +29,20 @@ import img8 from "../../../public/images/img8.jpeg";
 import pdf from "../../../public/images/pdf.pdf";
 import img9 from "../../../public/images/img9.jpg";
 import img10 from "../../../public/images/img10.jpg";
+import img11 from "../../../public/images/img11.jpg";
+import img12 from "../../../public/images/img12.jpg";
+import img13 from "../../../public/images/img13.jpg";
+import img14 from "../../../public/images/img14.jpg";
+import img15 from "../../../public/images/img15.jpeg";
+import img16 from "../../../public/images/img16.jpg";
+import img17 from "../../../public/images/img17.jpeg";
+import img18 from "../../../public/images/img18.jpeg";
+import img19 from "../../../public/images/img19.jpg";
+import img20 from "../../../public/images/img20.jpg";
+import img21 from "../../../public/images/img21.jpg";
+import img22 from "../../../public/images/img22.jpg";
+import img23 from "../../../public/images/img23.jpg";
+import img24 from "../../../public/images/img24.jpg";
 import logo from '../../../public/images/logo.gif'
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
@@ -398,7 +412,7 @@ function App() {
                 <div className="col-md-6 px-0">
                   <div className="img_container">
                     <div className="img-box">
-                      <img src="images/about-img.jpg" alt="" />
+                      <img src={img11} alt="" />
                     </div>
                   </div>
                 </div>
@@ -436,30 +450,30 @@ flex justify-center items-center  p-4 lg:mx-20 lg:text-base md:text-base text-sm
                 {/* part 1*/}
                 <div className="bg-white p-4 h-60   shadow-md mt-2">
                   <img
-                    src={img2}
+                    src={img12}
                     alt=""
-                    className="h-20 lg:mx-24 mx-16 md:mx-32"
+                    className="h-20 lg:mx-24 mx-20 md:mx-36 sm:mx-60"
                   />
                   {/* <GiRingingAlarm className="text-7xl lg:mx-32 mx-24 md:mx-32" /> */}
-                  <h2 className=" font-bold mb-2 mt-3 lg:mx-14 md:mx-14 mx-16">
+                  <h2 className=" font-bold mb-2 mt-3 lg:mx-14 md:mx-24 mx-16 sm:mx-48">
                     Touch Guard (Non GSM)
                   </h2>
-                  <h6 className=" lg:mx-12 md:mx-14 mx-10">
+                  <h6 className=" lg:mx-12 md:mx-24 mx-10 sm:mx-48">
                     (Wireless panel Non GSM)
                   </h6>
                 </div>
 
                 <div className="bg-white p-4 h-60   shadow-md mt-2">
                   <img
-                    src={img3}
+                    src={img13}
                     alt=""
-                    className="h-20 lg:mx-32 mx-24 md:mx-32"
+                    className="h-20 lg:mx-32 mx-20 md:mx-36 sm:mx-52"
                   />
 
-                  <h2 className="font-bold mb-2 mt-3 lg:mx-16 mx-16 md:mx-14">
+                  <h2 className="font-bold mb-2 mt-3 lg:mx-16 mx-16 md:mx-28 sm:mx-48">
                     Touch Protect (GSM)
                   </h2>
-                  <h6 className=" lg:mx-16 md:mx-14 mx-14">
+                  <h6 className=" lg:mx-16 md:mx-28 mx-14 sm:mx-48">
                     (Wireless Panel GSM)
                   </h6>
                 </div>
@@ -467,15 +481,15 @@ flex justify-center items-center  p-4 lg:mx-20 lg:text-base md:text-base text-sm
                 {/* part3 */}
                 <div className="bg-white p-4 h-60   shadow-md mt-2">
                   <img
-                    src={img4}
+                    src={img14}
                     alt=""
-                    className="h-20 lg:mx-28 mx-20 md:mx-32"
+                    className="h-20 lg:mx-28 mx-20 md:mx-32 sm:mx-52"
                   />
                   {/* <GiRingingAlarm className="text-7xl lg:mx-32 mx-24 md:mx-32" /> */}
-                  <h2 className="font-bold mb-2   mt-3 lg:mx-6  mx-[70px] md:mx-14">
+                  <h2 className="font-bold mb-2   mt-3 lg:mx-6  mx-[70px] md:mx-14 sm:mx-40">
                     Door Magnetic Sensor controller based
                   </h2>
-                  <h6 className=" lg:mx-6 md:mx-14 mx-10">
+                  <h6 className=" lg:mx-6 md:mx-14 mx-16 sm:mx-40">
                     (Indian) 7 Years battery backup
                   </h6>
                 </div>
@@ -483,15 +497,15 @@ flex justify-center items-center  p-4 lg:mx-20 lg:text-base md:text-base text-sm
                 {/* part4 */}
                 <div className="bg-white p-4 h-60   shadow-md mt-2 ">
                   <img
-                    src={img7}
+                    src={img15}
                     alt=""
-                    className="h-20 lg:mx-24 mx-16 md:mx-32"
+                    className="h-20 lg:mx-24 mx-20 md:mx-36 sm:mx-52"
                   />
                   {/* <GiRingingAlarm className="text-7xl lg:mx-32 mx-24 md:mx-32" /> */}
-                  <h2 className="font-bold mb-2 mt-3 lg:mx-14 md:mx-14 mx-14">
+                  <h2 className="font-bold mb-2 mt-3 lg:mx-14 md:mx-14 mx-16 sm:mx-40">
                     Dual Element Digital PIR Sensor (Israel) (3-4
                   </h2>
-                  <h6 className=" lg:mx-2 md:mx-14 mx-14">
+                  <h6 className=" lg:mx-2 md:mx-14 mx-12 sm:mx-40">
                     Years Battery Backup in 5 min mode) (Rodents and Reptile
                     Immune)
                   </h6>
@@ -500,15 +514,15 @@ flex justify-center items-center  p-4 lg:mx-20 lg:text-base md:text-base text-sm
                 {/* part5 */}
                 <div className="bg-white p-4 h-60   shadow-md mt-2">
                   <img
-                    src={img5}
+                    src={img16}
                     alt=""
-                    className="h-20 lg:mx-24 mx-20 md:mx-32"
+                    className="h-20 lg:mx-24 mx-20 md:mx-36 sm:mx-52"
                   />
                   {/* <GiRingingAlarm className="text-7xl lg:mx-32 mx-24 md:mx-32" /> */}
-                  <h2 className="font-bold mb-2 mt-3 lg:mx-14 md:mx-14 mx-[76px]">
+                  <h2 className="font-bold mb-2 mt-3 lg:mx-14 md:mx-16 mx-[76px] sm:mx-40">
                     Shutter Sensor microcontroller based (Indian)
                   </h2>
-                  <h6 className=" lg:mx-12 md:mx-14 mx-10">
+                  <h6 className=" lg:mx-12 md:mx-14 mx-12 sm:mx-40">
                     5 Years battery backup
                   </h6>
                 </div>
@@ -516,15 +530,15 @@ flex justify-center items-center  p-4 lg:mx-20 lg:text-base md:text-base text-sm
                 {/* part6 */}
                 <div className="bg-white p-4 h-60   shadow-md mt-2">
                   <img
-                    src={img6}
+                    src={img17}
                     alt=""
-                    className="h-20 lg:mx-24 mx-16 md:mx-32"
+                    className="h-20 lg:mx-24 mx-16 md:mx-36 sm:mx-52"
                   />
                   {/* <GiRingingAlarm className="text-7xl lg:mx-32 mx-24 md:mx-32" /> */}
-                  <h2 className="font-bold mb-2 mt-3 lg:mx-14 md:mx-14 mx-16">
+                  <h2 className="font-bold mb-2 mt-3 lg:mx-14 md:mx-16 mx-16 sm:mx-40">
                     Wireless Vibration / Glass Break CPU based
                   </h2>
-                  <h6 className=" lg:mx-12 md:mx-14 mx-10">
+                  <h6 className=" lg:mx-12 md:mx-14 mx-10 sm:mx-40">
                     with adjustivity (Indian) 10 years battery backup
                   </h6>
                   {/* <p className="text-gray-700 lg:mx-2 mx-3 ">
@@ -539,6 +553,181 @@ flex justify-center items-center  p-4 lg:mx-20 lg:text-base md:text-base text-sm
                 {/* <button className="mt-4 px-4 py-2 bg-yellow-500  text-white rounded  mx-16 md:mx-28 ">
                 Read More
               </button>  */}
+
+
+
+
+
+
+<div className="bg-white p-4 h-60   shadow-md mt-2">
+                  <img
+                    src={img18}
+                    alt=""
+                    className="h-20 lg:mx-24 mx-16 md:mx-36 sm:mx-52"
+                  />
+                  {/* <GiRingingAlarm className="text-7xl lg:mx-32 mx-24 md:mx-32" /> */}
+                  <h2 className="font-bold mb-2 mt-3 lg:mx-14 md:mx-24 mx-16 sm:mx-48">
+                  Wireless Panic Switch
+                  </h2>
+                  <h6 className=" lg:mx-12 md:mx-14 mx-10 sm:mx-48">
+                  (Indian) 10 years battery backup
+                  </h6>
+                  {/* <p className="text-gray-700 lg:mx-2 mx-3 ">
+                Our range of products include automatic door sensor and wifi
+                based door sensor.
+              </p>
+              <button className="lg:mt-[30%] mt-24 px-4 py-2 bg-yellow-500  text-white rounded lg:mx-24  mx-16 md:mx-28">
+                Read More
+              </button> */}
+                </div>
+
+
+
+
+
+                <div className="bg-white p-4 h-60   shadow-md mt-2">
+                  <img
+                    src={img19}
+                    alt=""
+                    className="h-20 lg:mx-24 mx-16 md:mx-36 sm:mx-52"
+                  />
+                  {/* <GiRingingAlarm className="text-7xl lg:mx-32 mx-24 md:mx-32" /> */}
+                  <h2 className="font-bold mb-2 mt-3 lg:mx-14 md:mx-14 mx-16 sm:mx-48">
+                  Wireless Smoke Sensor (Israel) (3 years
+                  </h2>
+                  <h6 className=" lg:mx-16 md:mx-14 mx-16 sm:mx-48">
+                  battery backup)
+                  </h6>
+                  {/* <p className="text-gray-700 lg:mx-2 mx-3 ">
+                Our range of products include automatic door sensor and wifi
+                based door sensor.
+              </p>
+              <button className="lg:mt-[30%] mt-24 px-4 py-2 bg-yellow-500  text-white rounded lg:mx-24  mx-16 md:mx-28">
+                Read More
+              </button> */}
+                </div>
+
+
+
+
+                <div className="bg-white p-4 h-60   shadow-md mt-2">
+                  <img
+                    src={img20}
+                    alt=""
+                    className="h-20 lg:mx-24 mx-20 md:mx-36 sm:mx-52"
+                  />
+                  {/* <GiRingingAlarm className="text-7xl lg:mx-32 mx-24 md:mx-32" /> */}
+                  <h2 className="font-bold mb-2 mt-3 lg:mx-14 md:mx-14 mx-16 sm:mx-44">
+                  Wireless Panic Alarm System (90)
+
+                  </h2>
+                  <h6 className=" lg:mx-12 md:mx-14 mx-14 sm:mx-44">
+                  (Only for one panic switch)
+
+                  </h6>
+                  {/* <p className="text-gray-700 lg:mx-2 mx-3 ">
+                Our range of products include automatic door sensor and wifi
+                based door sensor.
+              </p>
+              <button className="lg:mt-[30%] mt-24 px-4 py-2 bg-yellow-500  text-white rounded lg:mx-24  mx-16 md:mx-28">
+                Read More
+              </button> */}
+                </div>
+
+
+
+
+                <div className="bg-white p-4 h-60   shadow-md mt-2">
+                  <img
+                    src={img21}
+                    alt=""
+                    className="h-20 lg:mx-24 mx-20 md:mx-36 sm:mx-52"
+                  />
+                  {/* <GiRingingAlarm className="text-7xl lg:mx-32 mx-24 md:mx-32" /> */}
+                  <h2 className="font-bold mb-2 mt-3 lg:mx-14 md:mx-14 mx-16 sm:mx-40">
+                  Wireless Panic Alarm System (130)
+                  </h2>
+                  <h6 className=" lg:mx-12 md:mx-14 mx-14 sm:mx-40">
+                  m (130)
+                  (Only for one panic switch)
+                  </h6>
+                  {/* <p className="text-gray-700 lg:mx-2 mx-3 ">
+                Our range of products include automatic door sensor and wifi
+                based door sensor.
+              </p>
+              <button className="lg:mt-[30%] mt-24 px-4 py-2 bg-yellow-500  text-white rounded lg:mx-24  mx-16 md:mx-28">
+                Read More
+              </button> */}
+                </div>
+
+
+                <div className="bg-white p-4 h-60   shadow-md mt-2">
+                  <img
+                    src={img22}
+                    alt=""
+                    className="h-20 lg:mx-24  mx-20 md:mx-36 sm:mx-52"
+                  />
+                  {/* <GiRingingAlarm className="text-7xl lg:mx-32 mx-24 md:mx-32" /> */}
+                  <h2 className="font-bold mb-2 mt-3 lg:mx-16 md:mx-14 mx-16 sm:mx-40">
+                  Wireless Siren Power Combo (90 )+XTRANS
+                  </h2>
+                  <h6 className=" lg:mx-16 md:mx-14 mx-16 sm:mx-40">
+                  CIRCUIT
+
+                  </h6>
+                  {/* <p className="text-gray-700 lg:mx-2 mx-3 ">
+                Our range of products include automatic door sensor and wifi
+                based door sensor.
+              </p>
+              <button className="lg:mt-[30%] mt-24 px-4 py-2 bg-yellow-500  text-white rounded lg:mx-24  mx-16 md:mx-28">
+                Read More
+              </button> */}
+                </div>
+
+
+                <div className="bg-white p-4 h-60   shadow-md mt-2">
+                  <img
+                    src={img23}
+                    alt=""
+                    className="h-20 lg:mx-24 mx-20 md:mx-36 sm:mx-52"
+                  />
+                  {/* <GiRingingAlarm className="text-7xl lg:mx-32 mx-24 md:mx-32" /> */}
+                  <h2 className="font-bold mb-2 mt-3 lg:mx-14 md:mx-14 mx-16 sm:mx-40">
+                  Wireless Siren Advance Combo (130)+XTRANS 
+                  </h2>
+                  <h6 className=" lg:mx-16 md:mx-14 mx-16 sm:mx-40">
+                  CIRCUIT
+                  </h6>
+                  {/* <p className="text-gray-700 lg:mx-2 mx-3 ">
+                Our range of products include automatic door sensor and wifi
+                based door sensor.
+              </p>
+              <button className="lg:mt-[30%] mt-24 px-4 py-2 bg-yellow-500  text-white rounded lg:mx-24  mx-16 md:mx-28">
+                Read More
+              </button> */}
+                </div>
+
+                <div className="bg-white p-4 h-60   shadow-md mt-2">
+                  <img
+                    src={img24}
+                    alt=""
+                    className="h-20 lg:mx-24 mx-20 md:mx-36 sm:mx-52"
+                  />
+                  {/* <GiRingingAlarm className="text-7xl lg:mx-32 mx-24 md:mx-32" /> */}
+                  <h2 className="font-bold mb-2 mt-3 lg:mx-16 md:mx-24 mx-14 sm:mx-48">
+                  Wireless RF Repeater 
+                  </h2>
+                  {/* <h6 className=" lg:mx-12 md:mx-14 mx-10">
+                    with adjustivity (Indian) 10 years battery backup
+                  </h6> */}
+                  {/* <p className="text-gray-700 lg:mx-2 mx-3 ">
+                Our range of products include automatic door sensor and wifi
+                based door sensor.
+              </p>
+              <button className="lg:mt-[30%] mt-24 px-4 py-2 bg-yellow-500  text-white rounded lg:mx-24  mx-16 md:mx-28">
+                Read More
+              </button> */}
+                </div>
               </div>
             </body>
 
